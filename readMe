@@ -1,0 +1,13 @@
+Em linguagens de programação orientadas a objetos, como Java, C++, Python, entre outras, o método `static` em uma classe é um recurso que permite definir métodos que pertencem à classe em si, em vez de pertencerem a instâncias individuais (objetos) da classe. Aqui estão as características principais do método `static`:
+
+1. **Pertencimento à Classe**: Um método estático pertence à classe em que é definido, em vez de pertencer a instâncias individuais da classe. Isso significa que o método está disponível para ser chamado diretamente na classe, sem a necessidade de criar uma instância da classe.
+
+2. **Acesso Direto**: Como o método estático pertence à classe, ele pode ser chamado diretamente usando o nome da classe, seguido pelo nome do método estático. Não é necessário criar um objeto da classe para acessar o método estático.
+
+3. **Não Acessa Instância**: Como os métodos estáticos não pertencem a instâncias individuais da classe, eles não têm acesso aos membros não estáticos (campos ou métodos não estáticos) da classe. Isso significa que eles não podem acessar variáveis de instância ou chamar métodos de instância diretamente.
+
+4. **Compartilhamento de Dados e Comportamento**: Os métodos estáticos são úteis para definir comportamentos ou operações que são comuns a todas as instâncias da classe ou que não dependem do estado de uma instância específica. Eles também podem ser usados para armazenar dados que são compartilhados por todas as instâncias da classe.
+
+5. **Exemplos de Uso**: Métodos estáticos são comumente usados para implementar funções utilitárias que não dependem do estado de uma instância específica da classe, como funções matemáticas, funções de conversão de dados, métodos de validação, etc.
+
+Em resumo, o método `static` em uma classe permite definir comportamentos ou operações que pertencem à classe como um todo, em vez de pertencerem a instâncias individuais da classe. Isso oferece conveniência e flexibilidade na estruturação e uso de classes em linguagens orientadas a objetos.
