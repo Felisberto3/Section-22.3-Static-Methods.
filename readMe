@@ -40,8 +40,11 @@ Em resumo, o método `static` em uma classe permite definir comportamentos ou op
    ////////////////////////////////////////////CASOS DE USO   ////////////////////////////////////////////                   
   ///////////////////////////                                                        /////////////////////
 
-  1- O método static será usado para especificar uma propriedade de uma classe
-  2- O método static será usado para especificar um  método de uma classe
-  3- Como acessar uma variável não static numa função static
-  4- Como acessar uma variável static numa função não static
-  5- Como acessar uma variável static numa função static
+
+Note: toda variável static pode ser inicializado no construtor, neste caso ele vai variar o seu valor,
+não é uma boa prática usa-lo assim.
+  1- [x] -O método static será usado para especificar uma propriedade de uma classe
+  2- [x] - O método static será usado para especificar um  método de uma classe
+  3- [x] - Como acessar uma variável não static numa função static
+  4- [x] - Como acessar uma variável static numa função não static
+  5- [x] - Como acessar uma variável static numa função static
